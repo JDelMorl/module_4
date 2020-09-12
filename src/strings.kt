@@ -21,6 +21,9 @@ fun main(){
 //    println(s1.contains(other = "hi",ignoreCase = true))
 //    val w = s1.replace(oldValue = "thing", newValue = "other thing")
 //    println(w)
+
+
+//  variables/answers
     var a1 = "red"
     var u1 = ""
 
@@ -38,7 +41,7 @@ fun main(){
 
     var ansRight = 0
 
-
+//  questions
     print("1)what color is a fire truck?: ")
     u1 = readLine().toString()
     var result1 = a1.compareTo(u1,ignoreCase = true)
@@ -90,6 +93,7 @@ fun main(){
         println("Incorrect\n")
     }
 
+//  answers correct
     println("You answered $ansRight questions correct")
 
 }
